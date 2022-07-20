@@ -18,169 +18,226 @@
 			rel="stylesheet"
 		/>
 		<link href="styles.css" rel="stylesheet" />
+		<link href="normalize.css" rel="stylesheet" />
 	</head>
 	<body>
 		<header>
-			<div>
-				<h1 class="logo"><span class="logo_color">Web</span>Studio</h1>
-				<nav>
-					<a class="top-bar">Agencja</a>
-					<a class="top-bar" href="portfolio.html ">Portfolio</a>
+			<div class="container">
+				<div class="all-contacts">
+					<h1 class="logo">
+						<span class="logo_color">Web</span>Studio
+					</h1>
+					<nav>
+						<ul class="nav-links">
+							<li><a class="top-bar">Agencja</a></li>
+							<li>
+								<a class="top-bar" href="portfolio.html "
+									>Portfolio</a
+								>
+							</li>
 
-					<a class="top-bar">Kontakt </a>
-				</nav>
-				<a class="contact-links-top" href="mailto:info@devstudio.com:"
-					>info@devstudio.com</a
-				>
-				<a class="contact-links-top" href="tel:+48111111111"
-					>+48 111 111 111</a
-				>
+							<li><a class="top-bar">Kontakt </a></li>
+						</ul>
+					</nav>
+					<div class="main-contacts">
+						<a
+							class="contact-links-top-mail"
+							href="mailto:info@devstudio.com:"
+							>info@devstudio.com</a
+						>
+						<a class="contact-links-top-tel" href="tel:+48111111111"
+							>+48 111 111 111</a
+						>
+					</div>
+				</div>
 			</div>
 		</header>
 
 		<main>
-			<p class="main-top">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</p>
-			<button type="button" class="button1">Zamów usługę</button>
+			<section class="main-top">
+				<div class="container">
+					<p class="title-page">
+						EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
+					</p>
 
-			<ul>
-				<li class="reference-text-title">
-					LOREM IPSUM
-					<a class="reference-text">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Nam vel arcu sem. Sed non sodales dui. Interdum et
-						malesuada
-					</a>
+					<button type="button" class="btn-main-page">
+						Zamów usługę
+					</button>
+				</div>
+			</section>
+			<section>
+				<div class="container">
+					<ul class="lorem-impsum-description">
+						<li class="reference-text-title">
+							LOREM IPSUM
+							<a class="reference-text">
+								Lorem ipsum dolor sit amet, consectetur
+								adipiscing elit. Nam vel arcu sem. Sed non
+								sodales dui. Interdum et malesuada
+							</a>
+						</li>
+
+						<li class="reference-text-title">
+							LOREM IPSUM
+							<a class="reference-text">
+								Lorem ipsum dolor sit amet, consectetur
+								adipiscing elit. Nam vel arcu sem. Sed non
+								sodales dui. Interdum et malesuada
+							</a>
+						</li>
+
+						<li class="reference-text-title">
+							LOREM IPSUM
+							<a class="reference-text">
+								Lorem ipsum dolor sit amet, consectetur
+								adipiscing elit. Nam vel arcu sem. Sed non
+								sodales dui. Interdum et malesuada
+							</a>
+						</li>
+
+						<li class="reference-text-title">
+							LOREM IPSUM
+							<a class="reference-text">
+								Lorem ipsum dolor sit amet, consectetur
+								adipiscing elit. Nam vel arcu sem. Sed non
+								sodales dui. Interdum et malesuada
+							</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<h2 class="about-company">Czym się zajmujemy</h2>
+			<ul class="page-list">
+				<li>
+					<img
+						class="work_photo"
+						src="https://raw.githubusercontent.com/KatarzynaPikula/goit-markup-hw-01/main/images/1.jpg"
+						alt="close-up-image-programer-working-his-desk-office"
+						width="370"
+						height="294"
+					/>
 				</li>
 
-				<li class="reference-text-title">
-					LOREM IPSUM
-					<a class="reference-text">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Nam vel arcu sem. Sed non sodales dui. Interdum et
-						malesuada
-					</a>
+				<li>
+					<img
+						class="work_photo"
+						src="https://raw.githubusercontent.com/KatarzynaPikula/goit-markup-hw-01/main/images/2.jpg"
+						alt="cweb-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones"
+						width="370"
+						height="294"
+					/>
 				</li>
 
-				<li class="reference-text-title">
-					LOREM IPSUM
-					<a class="reference-text">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Nam vel arcu sem. Sed non sodales dui. Interdum et
-						malesuada
-					</a>
-				</li>
-
-				<li class="reference-text-title">
-					LOREM IPSUM
-					<a class="reference-text">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Nam vel arcu sem. Sed non sodales dui. Interdum et
-						malesuada
-					</a>
+				<li>
+					<img
+						class="work_photo"
+						src="https://raw.githubusercontent.com/KatarzynaPikula/goit-markup-hw-01/main/images/3.jpg"
+						alt="creative-artist-web-design-with-working-colour-selection-graphic-tablet"
+						width="370"
+						height="294"
+					/>
 				</li>
 			</ul>
 
-			<div>
-				<ul>
-					<li><h2>Czym się zajmujemy</h2></li>
-					<li>
-						<img
-							class="work_photo"
-							src="https://raw.githubusercontent.com/KatarzynaPikula/goit-markup-hw-01/main/images/1.jpg"
-							alt="close-up-image-programer-working-his-desk-office"
-							width="370"
-							height="294"
-						/>
-					</li>
+			<div class="container">
+				<section class="workers">
+					<h2 class="team">Nasz zespół</h2>
+					<ul class="team-section">
+						<li>
+							<figure class="worker-list">
+								<img
+									class="worker_photo"
+									src="https://raw.githubusercontent.com/KatarzynaPikula/goit-markup-hw-01/main/images/4853.jpg"
+									alt="Product Designer photo"
+									width="270"
+									height="260"
+								/>
+								<figcaption class="name">
+									<p class="worker-name">John Doe</p>
+									<p class="team-position">
+										Product Designer
+									</p>
+								</figcaption>
+							</figure>
+						</li>
 
-					<li>
-						<img
-							class="work_photo"
-							src="https://raw.githubusercontent.com/KatarzynaPikula/goit-markup-hw-01/main/images/2.jpg"
-							alt="cweb-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones"
-							width="370"
-							height="294"
-						/>
-					</li>
+						<li>
+							<figure class="worker-list">
+								<img
+									class="worker_photo"
+									src="https://raw.githubusercontent.com/KatarzynaPikula/goit-markup-hw-01/main/images/5844.jpg"
+									alt="Fronted Developer photo"
+									width="270"
+									height="260"
+								/>
+								<figcaption class="name">
+									<p class="worker-name">John Doe</p>
+									<p class="team-position">
+										Frontend Developer
+									</p>
+								</figcaption>
+							</figure>
+						</li>
 
-					<li>
-						<img
-							class="work_photo"
-							src="https://raw.githubusercontent.com/KatarzynaPikula/goit-markup-hw-01/main/images/3.jpg"
-							alt="creative-artist-web-design-with-working-colour-selection-graphic-tablet"
-							width="370"
-							height="294"
-						/>
-					</li>
-				</ul>
-			</div>
+						<li>
+							<figure class="worker-list">
+								<img
+									class="worker_photo"
+									src="https://raw.githubusercontent.com/KatarzynaPikula/goit-markup-hw-01/main/images/16166.jpg"
+									alt="Marketing photo"
+									width="270"
+									height="260"
+								/>
+								<figcaption class="name">
+									<p class="worker-name">John Doe</p>
+									<p class="team-position">Marketing</p>
+								</figcaption>
+							</figure>
+						</li>
 
-			<div>
-				<ul>
-					<li><h2>Nasz zespół</h2></li>
-
-					<li>
-						<img
-							class="worker_photo"
-							src="https://raw.githubusercontent.com/KatarzynaPikula/goit-markup-hw-01/main/images/4853.jpg"
-							alt="Product Designer photo"
-							width="270"
-							height="260"
-						/>
-
-						<p class="team-name">John Doe</p>
-						<p class="team-position">Product Designer</p>
-					</li>
-
-					<li>
-						<img
-							class="worker_photo"
-							src="https://raw.githubusercontent.com/KatarzynaPikula/goit-markup-hw-01/main/images/5844.jpg"
-							alt="Fronted Developer photo"
-							width="270"
-							height="260"
-						/>
-
-						<p class="team-name">John Doe</p>
-						<p class="team-position">Frontend Developer</p>
-					</li>
-
-					<li>
-						<img
-							class="worker_photo"
-							src="https://raw.githubusercontent.com/KatarzynaPikula/goit-markup-hw-01/main/images/16166.jpg"
-							alt="Marketing photo"
-							width="270"
-							height="260"
-						/>
-						<p class="team-name">John Doe</p>
-						<p class="team-position">Marketing</p>
-					</li>
-
-					<li>
-						<img
-							class="worker_photo"
-							src="https://raw.githubusercontent.com/KatarzynaPikula/goit-markup-hw-01/main/images/2968.jpg"
-							alt="UI Designer photo"
-							width="270"
-							height="260"
-						/>
-
-						<p class="team-name">John Doe</p>
-						<p class="team-position">Product UI Designer</p>
-					</li>
-				</ul>
+						<li>
+							<figure class="worker-list">
+								<img
+									class="worker_photo"
+									src="https://raw.githubusercontent.com/KatarzynaPikula/goit-markup-hw-01/main/images/2968.jpg"
+									alt="UI Designer photo"
+									width="270"
+									height="260"
+								/>
+								<figcaption class="name">
+									<p class="worker-name">John Doe</p>
+									<p class="team-position">
+										Product UI Designer
+									</p>
+								</figcaption>
+							</figure>
+						</li>
+					</ul>
+				</section>
 			</div>
 		</main>
 
 		<footer>
-			<p class="logo"><span class="logo_color">Web</span>Studio</p>
-			<address>Warszawa, Aleje Jerozolimskie 21</address>
-
-			<a class="contact-links" href="mailto:info@devstudio.com:"
-				>info@devstudio.com</a
-			>
-			<a class="contact-links" href="tel:+48111111111">+48 111 111 111</a>
+			<div class="container">
+				<div class="footer-nav">
+					<a class="logo"
+						><span class="logo_color">Web</span>Studio</a
+					>
+					<address>Warszawa, Aleje Jerozolimskie 21</address>
+				</div>
+				<ul class="ul-footer">
+					<li
+						class="footer-contact-mail"
+						href="mailto:info@devstudio.com:"
+					>
+						info@devstudio.com
+					</li>
+					<li class="footer-contact-tel" href="tel:+48111111111">
+						+48 111 111 111
+					</li>
+				</ul>
+			</div>
 		</footer>
 	</body>
 </html>
