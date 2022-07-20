@@ -120,8 +120,6 @@ body {
 	background-color: var(--second-b-color);
 	margin: auto;
 
-	height: 600px;
-
 	top: 80px;
 }
 
@@ -132,12 +130,8 @@ body {
 	display: block;
 	margin-block: 400;
 	text-align: center;
-	width: 696px;
-	height: 120px;
 
 	flex-wrap: wrap;
-
-	padding: 200px 0;
 }
 button:hover,
 button:active,
@@ -161,9 +155,6 @@ button:focus {
 	margin: left 452px;
 	align-items: center;
 	justify-content: center;
-
-	width: 200px;
-	height: 50px;
 }
 .buttons {
 	align-content: center;
