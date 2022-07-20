@@ -18,45 +18,60 @@
 			rel="stylesheet"
 		/>
 		<link href="styles.css" rel="stylesheet" />
+		<link href="normalize.css" />
 	</head>
 	<body>
 		<header>
-			<div>
-				<h1 class="logo"><span class="logo_color">Web</span>Studio</h1>
-				<nav>
-					<a class="top-bar" href="index.html">Agencja</a>
-					<a class="top-bar">Portfolio</a>
-					<a class="top-bar">Kontakt </a>
-				</nav>
-				<a class="contact-links-top" href="mailto:info@devstudio.com:"
-					>info@devstudio.com</a
-				>
-				<a class="contact-links-top" href="tel:+48111111111"
-					>+48 111 111 111</a
-				>
+			<div class="container">
+				<div class="all-contacts">
+					<h1 class="logo">
+						<span class="logo_color">Web</span>Studio
+					</h1>
+					<nav>
+						<ul class="nav-links">
+							<li>
+								<a class="top-bar" href="index.html">Agencja</a>
+							</li>
+							<li>
+								<a class="top-bar">Portfolio</a>
+							</li>
+
+							<li><a class="top-bar">Kontakt </a></li>
+						</ul>
+					</nav>
+					<div class="main-contacts">
+						<a
+							class="contact-links-top-mail"
+							href="mailto:info@devstudio.com:"
+							>info@devstudio.com</a
+						>
+						<a class="contact-links-top-tel" href="tel:+48111111111"
+							>+48 111 111 111</a
+						>
+					</div>
+				</div>
 			</div>
 		</header>
-
 		<main>
 			<ul>
 				<li>
-					<button type="button" class="button-filter">
+					<button type="button" class="btn-portfolio">
 						Wszystkie
 					</button>
 				</li>
 				<li>
-					<button type="button" class="button-filter">Strony</button>
+					<button type="button" class="btn-portfolio">Strony</button>
 				</li>
 				<li>
-					<button type="button" class="button-filter">
+					<button type="button" class="btn-portfolio">
 						Aplikacje
 					</button>
 				</li>
 				<li>
-					<button type="button" class="button-filter">Dizajn</button>
+					<button type="button" class="btn-portfolio">Dizajn</button>
 				</li>
 				<li>
-					<button type="button" class="button-filter">
+					<button type="button" class="btn-portfolio">
 						Marketing
 					</button>
 				</li>
@@ -180,13 +195,25 @@
 		</main>
 
 		<footer>
-			<p class="logo"><span class="logo_color">Web</span>Studio</p>
-			<address>Warszawa, Aleje Jerozolimskie 21</address>
-
-			<a class="contact-links" href="mailto:info@devstudio.com:"
-				>info@devstudio.com</a
-			>
-			<a class="contact-links" href="tel:+48111111111">+48 111 111 111</a>
+			<div class="container">
+				<div class="footer-nav">
+					<a class="logo"
+						><span class="logo_color">Web</span>Studio</a
+					>
+					<address>Warszawa, Aleje Jerozolimskie 21</address>
+				</div>
+				<ul class="ul-footer">
+					<li
+						class="footer-contact-mail"
+						href="mailto:info@devstudio.com:"
+					>
+						info@devstudio.com
+					</li>
+					<li class="footer-contact-tel" href="tel:+48111111111">
+						+48 111 111 111
+					</li>
+				</ul>
+			</div>
 		</footer>
 	</body>
 </html>
