@@ -46,7 +46,7 @@ body {
 }
 .all-contacts {
 	display: flex;
-	justify-content: flex-start;
+
 	align-items: center;
 	padding-bottom: 25px;
 	padding-top: 24px;
