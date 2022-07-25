@@ -6,7 +6,10 @@
 	--third-b-color: #f5f4fa;
 	--active-color: #2196f3;
 }
-
+li {
+	margin: 0px;
+	padding: 0px;
+}
 .container {
 	width: 1200px;
 	margin: auto;
@@ -23,7 +26,6 @@
 	background: var(--second-color);
 	line-height: 1.7;
 	color: var(--first-color);
-	margin: auto;
 }
 
 .logo {
@@ -265,7 +267,7 @@ ul {
 .lorem-impsum-description {
 	display: flex;
 	gap: 30px;
-
+	margin: 0px;
 	flex-wrap: wrap;
 	flex-direction: row;
 	padding-bottom: 0px;
@@ -283,6 +285,9 @@ ul {
 .work_photo {
 	border: 0px;
 }
+.worker_photo {
+	border: 0px;
+}
 .about-company {
 	font-size: 36px;
 	font-weight: 700;
@@ -294,31 +299,38 @@ ul {
 .page-list {
 	list-style-type: none;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	gap: 30px;
 }
 .workers {
 	background-color: var(--third-b-color);
-	margin-top: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	width: auto;
 }
 .team {
 	font-size: 36px;
 	font-weight: 700;
-
 	font-family: "Roboto";
-
 	line-height: 1.17;
 }
+
 .team-section {
 	list-style-type: none;
-	display: flex;
-	justify-content: center;
-	gap: 30px;
+	text-align: center;
+	background-color: red;
 }
 
+.worker-list {
+	list-style-type: none;
+	display: inline-block;
+	justify-content: space-between;
+	gap: 30px;
+	background-color: var(--second-color);
+	box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+		0px 2px 1px rgb(0 0 0 / 20%);
+	border-radius: 0px 0px 4px 4px;
+
+	width: 270px;
+	height: 368px;
+}
 .worker-name {
 	font-style: normal;
 	font-weight: 500;
@@ -329,16 +341,6 @@ ul {
 
 	text-align: center;
 }
-.worker-list {
-	margin: 0;
-	padding-left: 0px;
-	margin-left: 30px;
-	background-color: var(--second-color);
-	box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
-		0px 2px 1px rgb(0 0 0 / 20%);
-	border-radius: 0px 0px 4px 4px;
-}
-
 .name {
 	line-height: 1.17;
 }
@@ -349,7 +351,6 @@ ul {
 	font-size: 16px;
 	line-height: 19px;
 	letter-spacing: 0.03em;
-
 	color: var(--descr-color);
 	text-align: center;
 }
@@ -421,15 +422,7 @@ ul {
 	letter-spacing: 0.03em;
 	color: var(--descr-color);
 }
-figure {
-	display: inline-block;
-	margin-left: 15px;
-	margin-right: 15px;
 
-	margin-left: 0;
-
-	margin-right: 0;
-}
 .header {
 	background: var(--second-color);
 	margin: auto;
@@ -438,7 +431,7 @@ figure {
 	height: 80px;
 	border-bottom: 1px solid #ececec;
 	margin: 0px;
-	padding: 0;
+	padding: 0px;
 }
 
 .center {
