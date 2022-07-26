@@ -297,7 +297,7 @@ ul {
 .page-list {
 	list-style-type: none;
 	display: flex;
-	justify-content: space-between;
+
 	gap: 30px;
 }
 .workers {
